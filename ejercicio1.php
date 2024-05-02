@@ -3,7 +3,13 @@
 // Desarrolla una función con el nombre "areaTriangulo" para calcular el área de un triángulo.
 
 // Aquí tu código
-
+function areatriangulo ($base, $altura) {
+    echo "El area del triangulo es:";
+    echo ($base * $altura) / 2;
+    return ($base * $altura) / 2; 
+}
+      
+   
 
 
 // TESTS

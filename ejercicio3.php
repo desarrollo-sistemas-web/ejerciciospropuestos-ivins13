@@ -5,7 +5,28 @@
 // Si el operador no es válido, la función deberá devolver -1.
 
 // Aquí tu código
+function operacion ($n1,$n2, $operador) {
+    if ($operador =="+" ) {
+        echo "el resultado es:";
+        echo $n1 + $n2. "<br>";
+        return $n1 + $n2;
+    } elseif ($operador == "-"){
+        echo "el resultado es:";
+        echo $n1 - $n2. "<br>";
+        return $n1 - $n2;
+    } elseif ($operador == "*"){
+        echo "el resultado es:";
+        echo $n1 * $n2. "<br>";
+        return $n1 * $n2;
+    } elseif ($operador == "/"){
+        echo "el resultado es:";
+        echo $n1 / $n2. "<br>";
+        return $n1 / $n2;
+    } else {
+        return -1; 
+    }
 
+}
 
 
 
