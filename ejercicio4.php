@@ -5,7 +5,14 @@
 
 
 // Aquí tu código
-
+function mayorDelArreglo ($arreglo){
+if ($arreglo == []) {
+    echo "el mayor es:";
+    return -1;
+} else {
+    return max($arreglo);
+}
+}
 
 
 

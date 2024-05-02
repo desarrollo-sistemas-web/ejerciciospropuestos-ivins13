@@ -6,7 +6,16 @@
 
 
 // Aquí tu código
-
+function perimetroTriangulo ($L1 , $L2, $L3) {
+   if ($L1+ $L2 > $L3 && $L1 + $L3 > $L2 && $L2 + $L3 > $L1) {
+    echo "El perimetro del triangulo es:";
+    echo $L1 + $L2 + $L3 . "<br>";
+    return $L1 + $L2 + $L3;
+   } else{
+    return -1;
+   }
+    
+}
 
 
 // TESTS
